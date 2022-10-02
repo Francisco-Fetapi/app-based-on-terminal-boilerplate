@@ -1,3 +1,6 @@
 import { helloWorld } from "./helloWorld";
+import readlineSync from "readline-sync";
 
-console.log(helloWorld("Francisco Fetapi"));
+const name = readlineSync.question("What's your name?\n");
+
+console.log(helloWorld(name));
