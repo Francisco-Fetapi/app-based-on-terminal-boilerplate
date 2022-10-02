@@ -1,3 +1,3 @@
-console.log("Hello World!!");
+import { helloWorld } from "./helloWorld";
 
-export {};
+console.log(helloWorld("Francisco Fetapi"));
